@@ -1,7 +1,7 @@
 //**********************************************************************
 // File:       main.cpp
 // Author:     CS, Pacific University
-// Date:       12/7/21
+// Date:       12/6/22
 // Class:      CS 150-XX
 // Assignment: Structs Lab
 // Purpose:    Read in a series of points and display the point
@@ -48,6 +48,8 @@ int main () {
 	// TODO#1: Read in all points from the file
 	readPoints (inFile, sPoints, size);
 
+	// TODO#1.5: Complete the function displayPoint
+
 
 	// TODO#2: Calculate the point closest to the origin
 
@@ -72,7 +74,7 @@ Parameters:		sPoint - point to be displayed
 Returned:			None
 ***********************************************************************/
 void displayPoint (const Point &sPoint) {
-	cout << "(" << sPoint.mX << ", " << sPoint.mY << ")";
+	// TODO#1.5: Complete the function displayPoint
 }
 
 /***********************************************************************
